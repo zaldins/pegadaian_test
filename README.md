@@ -71,45 +71,45 @@ Untuk dapat melakukan pemeriksaana terhadap jawaban dibutuhkan NodeJS, XAMPP ( L
 <ul>
    <li> 
       <b>Soal no.1 : </b>
-      <p>metode POST</p>
+      <h6>metode POST</h6>
       <pre>http://localhost:3000/api/1/simpleMinMax</pre>
-      <span>body request JSON : </span>
+      <h6>body request JSON : </h6>
       <pre>{ "array" : [0,13,9] }</pre>
    </li>
    <li> 
       <b>Soal no.2 : </b>
-      <p>metode POST</p>
+      <h6>metode POST</h6>
       <pre>http://localhost:3000/api/1/findMinMax</pre>
-      <span>body request JSON : </span>
+      <h6>body request JSON : </h6>
       <pre>{"array":[0,13,9]}</pre>
       <br/>
-      <p>metode GET</p>
+      <h6>metode GET</h6>
       <pre>http://localhost:3000/api/1/findMinMax</pre>
-      <span>body request JSON : </span>
+      <h6>body request JSON : </h6>
       <pre></pre>
    </li>
    
    <li> 
       <b>Soal no.3 : </b>
-      <p>metode POST</p>
+      <h6>metode POST</h6>
       <pre>http://localhost:3000/api/1/checkDuplicate</pre>
-      <span>body request JSON : </span>
+      <h6>body request JSON : </h6>
       <pre>{ "word" : 'berkesinambungan' }</pre>
    </li>
    
    <li> 
       <b>Soal no.4 : </b>
-      <p>metode POST</p>
+      <h6>metode POST</h6>
       <pre>http://localhost:3000/api/1/checkWord</pre>
-      <span>body request JSON : </span>
+      <h6>body request JSON : </h6>
       <pre>{ "word" : 'string123' }</pre>
    </li>
    
    <li> 
       <b>Soal no.5 : </b>
-      <p>metode GET</p>
+      <h6>metode GET</h6>
       <pre>http://localhost:3000/api/1/getHisRate</pre>
-      <span>body request JSON : </span>
+      <h6>body request JSON : </h6>
       <pre>{ "endpoint" : 'https://www.ecb.europa.eu/stats/eurofxref/eurofxref-hist-90d.xml' }</pre>
    </li>
 </ul>
