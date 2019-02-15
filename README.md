@@ -80,7 +80,6 @@ Untuk dapat melakukan pemeriksaana terhadap jawaban dibutuhkan NodeJS, XAMPP ( L
       <br/>
       <p>metode GET</p>
       <pre>http://localhost:3000/api/1/findMinMax</pre>
-      <p>metode GET</p>
       <span>body request JSON : </span>
       <pre></pre>
    </li>
