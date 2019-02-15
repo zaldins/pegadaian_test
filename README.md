@@ -54,14 +54,15 @@ Untuk menggunakan GET, bisa dilakukan saat ingin melakukan fetching data
 <b>Jawaban Soal Teknikal :</b> 
 
 Dikerjakan dengan menggunakan bahasa Node JS.
-Untuk dapat melakukan pemeriksaana terhadap jawaban dibutuhkan NodeJS, POSTMAN atau INSOMNIA.
+Untuk dapat melakukan pemeriksaana terhadap jawaban dibutuhkan NodeJS, XAMPP ( Local server boleh bebas yang support MySQL ), POSTMAN atau INSOMNIA.
 
 1. Langkah pertama, download source code dari GIT ini dan download database di url : https://drive.google.com/open?id=10aU8aPKU7IVVQiEdnwS9sHO6069eyQOM
 2. Buka CMD. Masuk ke direktori yang telah mengandung source code ini.
 3. Setelah di dalam direktori yang berisikan source code ini, ketik npm install ( asumsi NODE js telah diinstall )
 4. Tambahkan library tambahan <pre>npm install xmldoc</pre>. Library ini berguna untuk proses xml parser.
-5. Jalankan aplikasi dengan mengetikkan <pre>node server.js</pre>
-6. Jalan Postman/Insomnia dan arahkan URL ke alamat endpoint berikut : 
+5. Import database yang telah didownload ke dalam XAMPP atau server local apapun.
+6. Jalankan aplikasi dengan mengetikkan <pre>node server.js</pre>
+7. Jalan Postman/Insomnia dan arahkan URL ke alamat endpoint berikut : 
 <ul>
    <li> 
       <b>Soal no.1 : </b>
