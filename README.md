@@ -56,7 +56,7 @@ Untuk menggunakan GET, bisa dilakukan saat ingin melakukan fetching data
 Dikerjakan dengan menggunakan bahasa Node JS.
 Untuk dapat melakukan pemeriksaana terhadap jawaban dibutuhkan NodeJS, POSTMAN atau INSOMNIA.
 
-1. Langkah pertama, download source code dari GIT ini.
+1. Langkah pertama, download source code dari GIT ini dan download database di url : https://drive.google.com/open?id=10aU8aPKU7IVVQiEdnwS9sHO6069eyQOM
 2. Buka CMD. Masuk ke direktori yang telah mengandung source code ini.
 3. Setelah di dalam direktori yang berisikan source code ini, ketik npm install ( asumsi NODE js telah diinstall )
 4. Tambahkan library tambahan <pre>npm install xmldoc</pre>. Library ini berguna untuk proses xml parser.
