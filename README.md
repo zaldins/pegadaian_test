@@ -64,13 +64,14 @@ Untuk dapat melakukan pemeriksaana terhadap jawaban dibutuhkan NodeJS, POSTMAN a
 6. Jalan Postman/Insomnia dan arahkan URL ke alamat endpoint berikut : 
 <ul>
    <li> 
-      Soal no.1 : <pre>http://localhost:3000/api/1/simpleMinMax</pre>
+      <b>Soal no.1 : </b>
       <p>metode POST</p>
+      <pre>http://localhost:3000/api/1/simpleMinMax</pre>
       <span>body request JSON : </span>
-      <pre>{ "array" : [0,13,9] }<pre>
+      <pre>{ "array" : [0,13,9] }</pre>
    </li>
    <li> 
-      Soal no.2 : 
+      <b>Soal no.2 : </b>
       <p>metode POST</p>
       <pre>http://localhost:3000/api/1/findMinMax</pre>
       <span>body request JSON : </span>
@@ -81,5 +82,29 @@ Untuk dapat melakukan pemeriksaana terhadap jawaban dibutuhkan NodeJS, POSTMAN a
       <p>metode GET</p>
       <span>body request JSON : </span>
       <pre></pre>
+   </li>
+   
+   <li> 
+      <b>Soal no.3 : </b>
+      <p>metode POST</p>
+      <pre>http://localhost:3000/api/1/checkDuplicate</pre>
+      <span>body request JSON : </span>
+      <pre>{ "word" : 'berkesinambungan' }</pre>
+   </li>
+   
+   <li> 
+      <b>Soal no.4 : </b>
+      <p>metode POST</p>
+      <pre>http://localhost:3000/api/1/checkWord</pre>
+      <span>body request JSON : </span>
+      <pre>{ "word" : 'string123' }</pre>
+   </li>
+   
+   <li> 
+      <b>Soal no.5 : </b>
+      <p>metode GET</p>
+      <pre>http://localhost:3000/api/1/getHisRate</pre>
+      <span>body request JSON : </span>
+      <pre>{ "endpoint" : 'https://www.ecb.europa.eu/stats/eurofxref/eurofxref-hist-90d.xml' }</pre>
    </li>
 </ul>
