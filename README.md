@@ -70,11 +70,13 @@ Untuk dapat melakukan pemeriksaana terhadap jawaban dibutuhkan NodeJS, POSTMAN a
       <pre>{ "array" : [0,13,9] }<pre>
    </li>
    <li> 
-      Soal no.2 : <pre>http://localhost:3000/api/1/findMinMax</pre>
+      Soal no.2 : 
       <p>metode POST</p>
+      <pre>http://localhost:3000/api/1/findMinMax</pre>
       <span>body request JSON : </span>
-      <pre>{ "array" : [0,13,9] }</pre>
-      
+      <pre>{"array":[0,13,9]}</pre>
+      <br/>
+      <p>metode GET</p>
       <pre>http://localhost:3000/api/1/findMinMax</pre>
       <p>metode GET</p>
       <span>body request JSON : </span>
