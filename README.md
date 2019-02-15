@@ -2,7 +2,8 @@
 online test PT.Pegadaian
 
 <hr/>
-jawaban soal umum : 
+
+<b>Jawaban Soal umum :</b> 
 
 <br/><br/>
 1. Multi threading adalah kemampuan sebuah program untuk melakukan lebih dari satu pekerjaan sekaligus. 
@@ -30,19 +31,53 @@ Untuk menggunakan POST, bisa dilakukan saat ingin mensubmit data. <br />
 Untuk menggunakan GET, bisa dilakukan saat ingin melakukan fetching data 
 <br /><br />
 6.
-Javascript: 10 <br />
-React: 10 <br />
-Node.js: 10 <br />
-Python: 0  <br />
-Java: 8 <br />
-Go: 0 <br />
-PHP: 10  <br />
-MongoDB: 7 <br />
-AWS: 0 <br />
-Cassandra: 5  <br />
-Elastic Search: 0  <br />
-Data Science: 0  <br />
-Git: 10 <br />
-CI/CD: 0 <br />
-Docker: 0  <br />
-MySQL: 10 <br />
+<ul>
+   <li>Javascript: 10 </li>
+   <li>React: 10 </li>
+   <li>Node.js: 10 </li>
+   <li>Python: 0 </li>
+   <li>Java: 8 </li>
+   <li>Go: 0 </li>
+   <li>PHP: 10 </li>
+   <li>MongoDB: 7 </li>
+   <li>AWS: 0 </li>
+   <li>Cassandra: 5 </li>
+   <li>Elastic Search: 0 </li>
+   <li>Data Science: 0 </li>
+   <li>Git: 10 </li>
+   <li>CI/CD: 0  </li>
+   <li>Docker: 0 </li>
+   <li>MySQL: 10 </li>
+</ul>
+<hr />
+
+<b>Jawaban Soal Teknikal :</b> 
+
+Dikerjakan dengan menggunakan bahasa Node JS.
+Untuk dapat melakukan pemeriksaana terhadap jawaban dibutuhkan NodeJS, POSTMAN atau INSOMNIA.
+
+1. Langkah pertama, download source code dari GIT ini.
+2. Buka CMD. Masuk ke direktori yang telah mengandung source code ini.
+3. Setelah di dalam direktori yang berisikan source code ini, ketik npm install ( asumsi NODE js telah diinstall )
+4. Tambahkan library tambahan <pre>npm install xmldoc</pre>. Library ini berguna untuk proses xml parser.
+5. Jalankan aplikasi dengan mengetikkan <pre>node server.js</pre>
+6. Jalan Postman/Insomnia dan arahkan URL ke alamat endpoint berikut : 
+<ul>
+   <li> 
+      Soal no.1 : <pre>http://localhost:3000/api/1/simpleMinMax</pre>
+      <p>metode POST</p>
+      <span>body request JSON : </span>
+      <pre>{ "array" : [0,13,9] }<pre>
+   </li>
+   <li> 
+      Soal no.2 : <pre>http://localhost:3000/api/1/findMinMax</pre>
+      <p>metode POST</p>
+      <span>body request JSON : </span>
+      <pre>{ "array" : [0,13,9] }</pre>
+      
+      <pre>http://localhost:3000/api/1/findMinMax</pre>
+      <p>metode GET</p>
+      <span>body request JSON : </span>
+      <pre></pre>
+   </li>
+</ul>
